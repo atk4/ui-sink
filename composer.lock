@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f0a04613715af06cc96dd5d36f585880",
-    "content-hash": "3f5f5567a4edad7be9abb3fa6bc204e2",
+    "hash": "46394d4eaf43340e20d8f6f9865d2815",
+    "content-hash": "bd589e1dd444bef28f3caaa4ed07d5f3",
     "packages": [
         {
             "name": "atk4/core",
@@ -164,25 +164,25 @@
         },
         {
             "name": "atk4/ui",
-            "version": "0.2",
+            "version": "dev-feature/form2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atk4/ui.git",
-                "reference": "d9baeea34b0c0800a9489af1aaeb7bf6450d55b1"
+                "reference": "96feb4ac06c60d41a4fce81cf8101f1a93fff556"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atk4/ui/zipball/d9baeea34b0c0800a9489af1aaeb7bf6450d55b1",
-                "reference": "d9baeea34b0c0800a9489af1aaeb7bf6450d55b1",
+                "url": "https://api.github.com/repos/atk4/ui/zipball/96feb4ac06c60d41a4fce81cf8101f1a93fff556",
+                "reference": "96feb4ac06c60d41a4fce81cf8101f1a93fff556",
                 "shasum": ""
             },
             "require": {
                 "atk4/data": "*",
                 "facebook/webdriver": "^1.1",
-                "php": ">=5.5.0"
+                "php": ">=5.6.0"
             },
             "require-dev": {
-                "atk4/core": "~1.1.6",
+                "atk4/core": "~1.1.8",
                 "codeclimate/php-test-reporter": "*",
                 "facebook/webdriver": "^1.1",
                 "fzaninotto/faker": "*",
@@ -221,7 +221,7 @@
                 "web",
                 "widget"
             ],
-            "time": "2016-12-08 12:55:17"
+            "time": "2017-01-17 09:31:00"
         },
         {
             "name": "facebook/webdriver",
@@ -325,7 +325,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "atk4/ui": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
